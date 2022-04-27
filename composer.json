@@ -1,0 +1,24 @@
+{
+  "name": "srun/yii2-campay",
+  "description": "Yii2 Campus Pay Extension",
+  "type": "library",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Wjw",
+      "email": "326447527@qq.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "srun\\campay\\": "/src"
+    }
+  }
+}
